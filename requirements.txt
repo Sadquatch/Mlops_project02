@@ -1,0 +1,10 @@
+torch==2.1.0
+transformers
+pytorch_lightning==1.9.5
+datasets
+wandb
+typing
+datetime
+scipy
+scikit-learn
+argparse
