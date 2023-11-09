@@ -1,0 +1,3 @@
+# Ignore the checkpoint and cache files
+checkpoint/
+__pycache__/
