@@ -1,3 +1,4 @@
-# Ignore the checkpoint and cache files
+# Ignore the checkpoint, cache and venv files
 checkpoint/
 __pycache__/
+.venv/
