@@ -44,5 +44,5 @@ Make sure you have the following installed on your machine:
    - Now, you can follow the model training progress on the WANDB dashboard.
 
 
-7. ## Have Fun!
+7. **Have Fun!**
   - Enjoy exploring and experimenting with MLOps_Project02! If you have any questions or suggestions, don't hesitate to reach out. Happy coding!
