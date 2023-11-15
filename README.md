@@ -1,13 +1,48 @@
-# Mlops_project02
+# MLOps_Project02
 
-To run this project follow these steps:
-1. If you are not familiar with github, download Sourcetree and create an account
-2. Fork this project and create a clone from it
-3. Open the project and run the git pull command once (in the Sourcetree or via terminal)
-4. Go in to the project folder in the terminal and build the docker image with the command "docker build -t image_name ."
-5. If you do not have an account on WANDB, create one
-6. Log in to your account on WANDB
-7. Run the docker Image with the command "docker run -e WANDB_API_KEY=your_actual_api_key image_name"
-8. Now you can follow the model training in WANDB
-9. Have Fun
+## Overview
 
+Welcome to MLOps_Project02! This project focuses on streamlining the machine learning operations (MLOps) workflow, making it easier for users to set up and monitor their models using Docker and Weights & Biases (WANDB). Follow the steps below to get started.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Docker](https://www.docker.com/get-started)
+- [Sourcetree](https://www.sourcetreeapp.com/) (optional, for GitHub interaction)
+
+## Getting Started
+
+1. **Clone the Repository:**
+   - If you're not familiar with GitHub, download Sourcetree and create an account.
+   - Fork this project and create a clone.
+
+2. **Update Local Repository:**
+   - Open the project and run the following command in Sourcetree or terminal:
+     ```bash
+     git pull
+     ```
+
+3. **Build Docker Image:**
+   - Navigate to the project folder in the terminal.
+   - Build the Docker image using the following command:
+     ```bash
+     docker build -t image_name .
+     ```
+
+4. **Set up WANDB:**
+   - If you don't have a WANDB account, [create one](https://wandb.ai/site/signup).
+   - Log in to your WANDB account.
+
+5. **Run Docker Image:**
+   - Execute the following command to run the Docker image, replacing `your_actual_api_key` with your WANDB API key:
+     ```bash
+     docker run -e WANDB_API_KEY=your_actual_api_key image_name
+     ```
+
+6. **Explore WANDB Dashboard:**
+   - Now, you can follow the model training progress on the WANDB dashboard.
+
+
+7. ## Have Fun!
+  - Enjoy exploring and experimenting with MLOps_Project02! If you have any questions or suggestions, don't hesitate to reach out. Happy coding!
